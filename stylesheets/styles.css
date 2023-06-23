@@ -1,0 +1,111 @@
+@import "reset.css";
+@font-face {
+  font-family: 'Greybeard-22px';
+  src: url('../fonts/Greybeard-22px.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'Greybeard-11px';
+  src: url('../fonts/Greybeard-11px.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'Greybeard-13px';
+  src: url('../fonts/Greybeard-13px.ttf') format("truetype");
+}
+html{
+   cursor: url('../images/pointer.png'),auto;
+}
+a,.buy:hover{
+  cursor: url('../images/pointer2.png'),pointer;
+}
+input,textarea:hover{
+  cursor: url('../images/inputCursor.png'),pointer;
+}
+h1{
+  font-size: 5vw;
+  font-family: Greybeard-22px;
+  line-height: 90%;
+}
+h2{
+  font-size: 2.396vw;
+  font-family: Greybeard-11px;
+}
+p{
+  font-size: 1.667vw;
+  font-family: Greybeard-11px;
+}
+.navTag > h2 {
+  user-select: none;
+}
+.navBar{
+  display: flex;
+  width: 95%;
+  margin: 2.083vw;
+  margin-bottom: 1.302vw;
+  justify-content: space-between;
+}
+.navTag{
+  background-color: #1D19FA;
+  padding: 0.625vw 3.490vw;
+  display: flex;
+  align-items: center;
+}
+.navContainer{
+  display: flex;
+  gap: 1.042vw;
+}
+.navIcon{
+  width: 3.6vw;
+  height: 3.6vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navTag > h2 {
+  user-select: none;
+  text-align: center;
+}
+.menuButton{
+  background-image: url('../images/menuButton.svg');
+}
+.menuButton_close{
+  background-image: url('../images/menuButton_close.png');
+}
+/* Colors */
+.blue{
+  color:#1D19FA;
+}
+.blueBG{
+  background-color: #1D19FA;
+}
+.green{
+  color:#0CCC70;
+}
+.svgGreen{
+  fill:#0CCC70;
+}
+.greenBG{
+  background-color: #0CCC70;
+}
+.orange{
+  color: #FA5519;
+}
+.orangeBG{
+  background-color: #FA5519;
+}
+.white{
+  color: #FFFFFF;
+}
+/* Hover */
+.hovOpacity:hover{
+  opacity: 75%;
+  transition: 0.5s;
+  scale: 0.9;
+  cursor: url('../images/pointer2.png'),pointer;
+}
+/* DisplayNone */
+.d-none{
+  display: none;
+}
+.cover{
+  background-size: cover;
+  background-repeat: no-repeat;
+}

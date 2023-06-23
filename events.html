@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="stylesheets/events.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/responsive.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <title>Мероприятия</title>
+  </head>
+  <body>
+    <div class="popUp blueBG white d-none">
+      <div class="posterFiller"></div>
+      <div class="inputWrap">
+        <input class="blue"type="text" name="" value="" placeholder="Имя">
+        <input class="blue"type="number" name="" value="" placeholder="Серийный номер">
+      </div>
+      <button type="button" id="event" name="button">Записаться</button>
+    </div>
+    <div class="shadow d-none"></div>
+    <!-- Header -->
+    <div class="navBar">
+      <div class="navContainer">
+        <div class="navTag"><h2 class="white">МЕРОПРИЯТИЯ</h2> </div>
+      </div>
+        <a href="menu.html" class="menuButton hovOpacity navIcon"></a>
+    </div>
+    <!-- Content -->
+    <div class="eventWrapper">
+      <div class="infoBlock orange">
+        <h1>АРТ-ТЕРАПИЯ</h1>
+        <div class="eventLine">
+          <div class="date"> <h1>16.06</h1></div>
+          <div class="name"><p>Открытые мастерские</p></div>
+          <div class="time"><p>15:40</p></div>
+          <div class="moreEv"><a class="orange" id="Art" href="#">Записаться</a></div>
+        </div>
+      </div>
+      <div class="blue infoBlock">
+        <h1>ЛЕКЦИИ</h1>
+        <div class="eventLine">
+          <div class="date"> <h1>16.06</h1></div>
+          <div class="name"><p>Как бороться с депрессией</p></div>
+          <div class="time"><p>17:00</p></div>
+          <div class="moreEv"><a class="blue" id="depressed">Записаться</a></div>
+        </div>
+        <div class="eventLine">
+          <div class="date"> <h1></h1></div>
+          <div class="name"><p>Жизнь с травмой</p></div>
+          <div class="time"><p>19:00</p></div>
+          <div class="moreEv"><a class="blue" id="Crossed" >Записаться</a></div>
+        </div>
+        <div class="divider blueBG"></div>
+        <div class="eventLine">
+          <div class="date"> <h1>21.06</h1></div>
+          <div class="name"><p>Синдром отложенной жизни</p></div>
+          <div class="time"><p>20:00</p></div>
+          <div class="moreEv"><a class="blue" id="Void" >Записаться</a></div>
+        </div>
+      </div>
+      <div class="green infoBlock">
+        <h1>ГРУППОВАЯ ТЕРАПИЯ</h1>
+        <div class="eventLine">
+          <div class="date"> <h1>16.06</h1></div>
+          <div class="name"><p>Сеансы на природе</p></div>
+          <div class="time"><p>16:00</p></div>
+          <div class="moreEv"><a class="green" id="nature" >Записаться</a></div>
+        </div>
+        <div class="divider greenBG"></div>
+        <div class="eventLine">
+          <div class="date"> <h1>19.06</h1></div>
+          <div class="name"><p>‎‎Как найти гармонию с собой</p></div>
+          <div class="time"><p>20:00</p></div>
+          <div class="moreEv"><a class="green" id="findMe" href="#">Записаться</a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

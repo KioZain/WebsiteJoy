@@ -1,0 +1,179 @@
+/* PopUp */
+.popUp{
+  width: 28.25vw;
+  position: fixed;
+  transform: translate(120%,0%);
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 0.563vw;
+  gap:0.521vw;
+  border: 0.208vw solid;
+}
+.inputWrap{
+  display: flex;
+  width: 100%;
+  gap:0.521vw;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input{
+  width: 100%;
+  height: 1.823vw;
+  font-family: Greybeard-13px;
+  font-size: 0.781vw;
+  border: 0.156vw solid #0CCC70;
+  padding:0.260vw 0.521vw;
+  outline: none;
+}
+button{
+  width: 100%;
+  height: 3.646vw;
+  font-family: Greybeard-13px;
+  color: #1D19FA;
+  font-size: 1.250vw;
+  border: 0.156vw solid;
+  padding: 0.156vw 0.521vw;
+  outline: none;
+}
+button:hover{
+  background-color: white;
+  cursor: url('../images/pointer2.png'),pointer;
+}
+.shadow{
+  width: 100vw;
+  height: 90vw;
+  position: absolute;
+  background: black;
+  opacity: 60%;
+  top:0;
+}
+.posterFiller{
+  min-height: 36.458vw;
+  max-height:51.563vw;
+  width: 100%;
+  border: 0.521vw solid #ffffff;
+  /* background: red; */
+}
+.closePop {
+  background-image: url('../images/closePopup.png');
+  width: 1.563vw;
+  height: 1.563vw;
+  right: 1.563vw;
+  top: 1.563vw;
+  position: absolute;
+}
+
+.eventWrapper{
+  display: flex;
+  flex-direction: column;
+  gap:2.604vw;
+  /* height: 500px; */
+  /* background: red; */
+  padding: 2.083vw;
+}
+.lineTesting{
+  width: 100%;
+  border: 0.156vw solid;
+}
+/* infoBlock */
+.infoBlock{
+  width: 100%;
+  display: flex;
+  padding: 1.302vw 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: 0.208vw solid;
+  border-bottom: 0.208vw solid;
+}
+.eventLine{
+  display: flex;
+  width: 100%;
+  height: 5.208vw;
+  /* gap:300px; */
+  /* justify-content: space-around; */
+  align-items: center;
+}
+.date{
+  width: 25%;
+  height: 2.604vw;
+  /* background: red; */
+  display: flex;
+  align-items: center
+}
+.name{
+  width: 40%;
+  height: 2.604vw;
+  /* background: blue; */
+  display: flex;
+  align-items: center
+}
+.time{
+  width: 25%;
+  height: 2.604vw;
+  /* background: green; */
+  display: flex;
+  align-items: center
+}
+.moreEv{
+  width: 11%;
+  height: 2.604vw;
+  /* background: gold; */
+  display: flex;
+  align-items: center
+}
+.moreEv > a {
+  font-size: 1.875vw;
+  text-decoration: none;
+  font-family: Greybeard-13px;
+}
+.moreEv:hover > a {
+  text-decoration: underline;
+}
+.divider{
+  width: 100%;
+  height: 0.208vw;
+  margin: 1.042vw 0px;
+}
+.void{
+  background-image: url('../images/void.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.art{
+  background-image: url('../images/artTherapy.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pixelNature{
+  background-image: url('../images/pixelNature.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.crossed{
+  background-image: url('../images/crossed.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.findMe{
+  background-image: url('../images/findMe.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.depression{
+  background-image: url('../images/depression.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

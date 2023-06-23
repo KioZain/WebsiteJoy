@@ -1,0 +1,265 @@
+@media only screen and (min-width: 1px) and (max-width: 500px){
+  .wrapper{
+    display: none;
+  }
+  body{
+    overflow: scroll;
+  }
+  /* About.html */
+  .navIcon{
+    width: 7.6vw;
+    height: 7.6vw;
+  }
+  .navTag > h2{
+    font-size: 6vw;
+  }
+  .navBar{
+    align-items: center;
+  }
+  .navContainer{
+    gap: 1.5vw;
+    margin-top: 2vw;
+  }
+  .WrapMobile{
+    display: flex;
+    flex-direction: column;
+    margin: 1.800vw;
+    margin-top: 6vw;
+    gap:6vw;
+  }
+.rContainer{
+  height: 50vw;
+  border: 0.5vw solid;
+}
+.actions{
+  height: 6vw;
+}
+.description > P {
+  font-size: 2.042vw;
+}
+.lineBack{
+  height: 2vw;
+}
+.blockTest{
+  display: flex;
+  flex-direction: column;
+  padding: 0.781vw 1.042vw;
+  gap: 1.042vw
+}
+.blockTest > h1 {
+  font-size: 10vw;
+}
+.container{
+  width: 100%;
+  padding: 1.781vw 1.042vw;
+  min-height: 8.854vw;
+  border: 0.5vw solid;
+}
+.container > P {
+  font-size: 3vw;
+  font-family: Greybeard-11px;
+}
+/* Menu.html */
+.navButton{
+  width: 36vw;
+  padding: 4.719vw;
+}
+.navButton > a{
+  font-size: 27px;
+}
+.wrapperMenu{
+  margin-top: 100px;
+  gap: 2.302vw;
+}
+.rewPic,.shPic,.evPic,.pixContArt,.building,.hall{
+  display: none;
+}
+/* Shop.Html */
+.shopItem{
+  width: 100%;
+  height: 54.771vw;
+}
+.shopItem:nth-child(2){
+  width: 50%;
+  height: 36.344vw;
+}
+.shopItem:nth-child(3){
+  width: 47%;
+  height: 43.021vw;
+}
+.shopItem:nth-child(4){
+  width: 100%;
+  height: 64.698vw;
+}
+.shopItem:nth-child(5){
+  width: 45%;
+  height: 39.24vw;
+}
+.shopItem:nth-child(6){
+  width: 51.5%;
+  height: 47.323vw;
+}
+.shopItem:nth-child(7) {
+    width: 45%;
+    height: 50.24vw;
+    background-position: center;
+}
+.buyLine{
+  height: 6.167vw;
+  border-top: 0.308vw solid;
+}
+.textField > p {
+  font-family: Greybeard-22px;
+  font-size: 3.188vw;
+}
+.textField{
+  width: 90%;
+}
+.bio > a{
+  width: 29.156vw;
+  height: 5.167vw;
+}
+.blockText > p{
+  font-size: 2vw;
+}
+/* Events */
+.infoBlock > h1{
+  font-size: 6vw;
+}
+.name > p{
+  font-size: 2.800vw;
+}
+.time > p{
+  font-size: 2.800vw;
+}
+.name{
+  width: 30%;
+}
+.time{
+  justify-content: center;
+}
+.infoBlock{
+  padding: 5.302vw 0vw;
+  gap:4vw;
+  border-top: 0.508vw solid;
+  border-bottom: 0.508vw solid;
+}
+.divider{
+  height: 0.408vw;
+}
+.moreEv > a {
+  font-size: 2.875vw;
+}
+.shadow{
+  height: 200vw;
+}
+.popUp{
+  width: 76vw;
+  transform: translate(15%,10%);
+}
+.posterFiller{
+  min-height: 100vw;
+  border: none;
+}
+.inputWrap > input{
+  height: 6.823vw;
+  font-size: 2.781vw;
+  padding: 0.26vw 1.521vw;
+}
+.popUp > button{
+  height: 9vw;
+  font-size: 4vw;
+}
+/* Reviews */
+.cube{
+  width: 95vw;
+  height: 80vw;
+  margin-top: 4.167vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.042vw;
+}
+.buttonText > p{
+  font-size: 3.667vw;
+}
+.buttonText{
+  height: 7.125vw;
+  border: 0.456vw solid #1D19FA;
+}
+.reviewText > h1{
+  font-size: 10vw;
+  line-height: 80%;
+}
+.reviewImageBg{
+  top: 10.813vw;
+  left: 26.156vw;
+  width: 42.25vw;
+  height: 36.396vw;
+  border: 0.456vw solid #1D19FA;
+}
+.rows{
+  gap:0.981vw;
+  margin-top:1.981vw;
+}
+/* Form */
+#formPop{
+  width: 50vw;
+  transform: translate(44%,70%);
+  height: 40vw;
+  gap: 3vw;
+}
+#formPop > .closePop{
+  right: 2.763vw;
+  top: 2.763vw;
+}
+.TextPop > h2{
+  font-size:4.400vw;
+}
+#formPop > P{
+  font-size: 2.800vw;
+}
+.boxInputWrapper{
+  margin-top: 15vw;
+}
+.inputWrapper{
+  width: 70vw;
+  gap: 1.521vw;
+}
+.inputRow > input {
+  height: 7.604vw;
+  width: 44.5%;
+  font-size: 3.042vw;
+  border: 0.46vw solid;
+}
+.inputWrapper > input {
+  height: 7.604vw;
+  width: 96.5%;
+  font-size: 3.042vw;
+  border: 0.46vw solid;
+}
+.inputWrapper > textarea {
+  height: 17.604vw;
+  width: 96.5%;
+  font-size: 3.042vw;
+  border: 0.46vw solid;
+}
+.inputWrapper > button{
+  height: 9.167vw;
+  border: 0.46vw solid #1D19FA;
+}
+.inputRow > p {
+    font-size: 3.267vw;
+}
+button > h2 {
+  font-size: 3.042vw;
+}
+}
+@media only screen and (min-width: 1px) and (max-width: 800px){
+.mainScr{
+  display: none;
+}
+.flexMenu{
+  display: flex;
+}
+}

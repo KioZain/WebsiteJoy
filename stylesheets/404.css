@@ -1,0 +1,51 @@
+body{
+  overflow: hidden;
+}
+.error{
+  width: 100vw;
+  height: 100vw;
+  background-image: url('../images/error01.png');
+  background-size: contain;
+  animation: change 6s linear infinite;
+}
+@keyframes change {
+  50%{background-image:  url('../images/void03.png');}
+  75%{background-image:  url('../images/error02.png');}
+}
+.message{
+  width: 24.833vw;
+  background: white;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  top:  40%;
+  left: 35%;
+  align-items: center;
+  gap: 0.521vw;
+}
+.message > h1 {
+  font-size:17.188vw;
+  text-align: center;
+  margin-top: -4.958vw;
+}
+a{
+  display: flex;
+  width: 80%;
+  height: 3.796vw;
+  font-size: 1.042vw;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: Greybeard-13px;
+  border: 0.208vw solid;
+  margin-bottom: 1.042vw;
+}
+h2{
+  margin-top: -1.958vw;
+  font-size: 2.196vw;
+}
+a:hover{
+  background:#0CCC70;
+  color: white;
+}

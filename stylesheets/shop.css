@@ -1,0 +1,304 @@
+/* Wrapper */
+.allWrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 1.563vw;
+  gap: 1.042vw;
+  box-sizing: border-box;
+}
+.shopWrapper{
+  display: flex;
+  width: 100%;
+  gap:1.042vw;
+  flex-wrap:wrap;
+}
+/* PopUp */
+.popUp{
+  height: 10.229vw;
+  width: 31.25vw;
+  background-color: #FFFFFF;
+  position: fixed;
+  transform: translate(85%,50%);
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  padding: 1.563vw;
+  gap:1.042vw;
+  border: 0.208vw solid;
+}
+.shadow{
+  width: 100vw;
+  height: 205vw;
+  position: absolute;
+  background: black;
+  opacity: 60%;
+  top:0;
+  z-index: 1;
+}
+.closePop {
+  background-image: url('../images/closePopup.png');
+  width: 1.763vw;
+  height: 1.763vw;
+  right: 0.563vw;
+  top: 0.563vw;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+}
+.popUp > p {
+  font-size: 1.667vw;
+  color: blue;
+}
+.TextPop > h2 {
+  font-size: 2.708vw;
+  color: blue;
+}
+/* BottomLine */
+.buyLine{
+  height: 4.167vw;
+  display: flex;
+  background: white;
+  border-top: 0.208vw solid;
+}
+.textField{
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  padding-left: 1.042vw;
+  display: flex;
+  align-items: center;
+}
+.textField > p {
+  font-family: Greybeard-22px;
+  font-size: 2.188vw;
+}
+.buy{
+  min-width: 11.771vw;
+  height: 100%;
+  border-left: 0.208vw solid;
+  display: flex;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.buyOrange:hover{
+  background-color: #FA5519;
+}
+.buyGreen:hover{
+  background-color: #0CCC70;
+}
+.buyBlue:hover{
+  background:#1D19FA;
+}
+.buy:hover{
+  opacity: 100%;
+  transition: 0.2s;
+}
+.buy:hover > p {
+  color: white;
+}
+/* FirstRow */
+.firstRow{
+  display:flex;
+  gap:1.042vw;
+}
+.shopItem{
+  width: 53%;
+  height: 31.771vw;
+  background:#1D19FA;
+  background-image: url('../images/tShirt.png');
+  border: solid 0.208vw;
+  border-collapse: collapse;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.shopItem:nth-child(2){
+  width:45%;
+  height:27.344vw;
+  background-color:#0CCC70;
+  background-image: url('../images/braclet.png');
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.shopItem:nth-child(3){
+  width: 43%;
+  height:33.021vw;
+  border: solid 0.208vw;
+  display: flex;
+  background-size: contain;
+  flex-direction: column-reverse;
+  background-color: #0CCC70;
+  background-image: url('../images/panama.png');
+  background-repeat: no-repeat;
+}
+.shopItem:nth-child(4){
+  width: 54%;
+  height: 38.698vw;
+  background-image: url('../images/shoper.png');
+  background-color: #1D19FA;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.shopItem:nth-child(5){
+  width: 30%;
+  height: 27.240vw;
+  background-image: url('../images/cups.png');
+  background-color: #0CCC70;
+  border: 0.208vw solid;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.shopItem:nth-child(6){
+  width: 37.5%;
+  height: 39.323vw;
+  background-image: url('../images/umbrella.png');
+  background-size: contain;
+}
+.shopItem:nth-child(7){
+  background:#FA5519;
+  width: 28%;
+  height: 34.24vw;
+  background-size: contain;
+  background-image: url('../images/notebook.png');
+}
+/* bookShop */
+.addWrapper{
+  width: 100%;
+  height: 15.625vw;
+  border: 0.208vw solid #1D19FA;
+  position: relative;
+  overflow: hidden;
+  background-image: url('../images/addBG.png');
+}
+/* BookAdd */
+.addWrapper > div {
+  position: absolute;
+}
+.glitch{
+  width: 43.854vw;
+  height: 30.052vw;
+  background-image: url('../images/bug.png');
+  top: 0.781vw;
+  left: 1.563vw;
+  animation: g1 3s linear infinite;
+}
+@keyframes g1 {
+  50%{top:1.042vw;left:2.604vw}
+}
+.glitch:nth-child(2){
+  width: 31.042vw;
+  height: 20.365vw;
+  background-image: url('../images/bug2.png');
+  top: 4.271vw;
+  left: 34.896vw;
+  animation: g2 4s linear infinite;
+}
+@keyframes g2{
+  50%{left: 33vw;top: 5vw;}
+}
+.glitch:nth-child(3){
+  width: 27.917vw;
+  height: 18.698vw;
+  background-image: url('../images/bug3.png');
+  top: -11.542vw;
+  left: 51.042vw;
+  animation: g3 4s linear infinite;
+  }
+  @keyframes g3{
+    50%{top: -13vw; left:50vw }
+  }
+.glitch:nth-child(4){
+  width: 20.26vw;
+  height: 27.917vw;
+  background-image: url('../images/bug4.png');
+  top: 6.250vw;
+  left: 73.958vw;
+  animation: g4 3s linear infinite;
+}
+@keyframes g4{
+  50%{top: 8vw;}
+}
+.glitch:nth-child(5){
+  width: 19.26vw;
+    height: 28.917vw;
+    background-image: url(../images/bug4.png);
+    top: -24.75vw;
+    left: 13.958vw;
+  animation: g5 3s linear infinite;
+}
+.addText{
+  display: flex;
+  flex-direction: column;
+  width: 20.833vw;
+  position: absolute;
+  top: 5.469vw;
+  left:5.104vw;
+}
+.addText > h1 {
+  font-size: 2.904vw
+}
+.addText > p {
+  font-size: 1.302vw;
+}
+/* BookArt */
+.bookArtWrap{
+  display: flex;
+  gap:1.042vw;
+  width: 100%;
+}
+.bookCont{
+  width: 50%;
+  height: 29.427vw;
+  border: 0.208vw solid #1D19FA;
+  background-image: url('../images/bookPage.png');
+}
+.bookCont:nth-child(2){
+  height: 33.021vw;
+  width: 50%;
+  background-image: url('../images/books.png');
+}
+.bookGarden{
+  width: 50%;
+  height: 29.427vw;
+  border: 0.208vw solid #1D19FA;
+  background-image: url('../images/Garden.png');
+}
+/* AboutBlock */
+.aboutBook{
+  display: flex;
+  gap:1.042vw;
+  flex-direction: column;
+  width: 50%;
+  height: 26.042vw;
+  align-items: center;
+  justify-content: center;
+}
+.bio{
+  display: flex;
+  flex-direction: column;
+  gap:1.563vw;
+}
+.blockText{
+  padding: 1.042vw 0.521vw;
+  border: 0.208vw solid #1D19FA;
+  width: 28.125vw;
+}
+.bio > a {
+  width: 15.156vw;
+  height: 4.167vw;
+  border: 0.208vw solid #1D19FA;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buyBlue:hover > p {
+  color: white;
+}
+.blockText > p{
+  font-size: 1.1667vw;
+}

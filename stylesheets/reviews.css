@@ -1,0 +1,103 @@
+body{
+  overflow: hidden;
+}
+.navTag:nth-child(2){
+  background: white;
+  border: 0.156vw solid #1D19FA;
+}
+.navTag:nth-child(2) > a {
+  color: #1D19FA;
+  text-decoration: none;
+  font-size: 2.396vw;
+  font-family: Greybeard-11px;
+}
+.boxReviewsWrapper{
+ width: 100%;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ /* background: navy; */
+}
+.cube{
+  width: 64.375vw;
+  height: 31.250vw;
+  margin-top: 4.167vw;
+  /* border: 0.156vw solid #1D19FA; */
+  position: relative;
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 1.042vw;
+}
+.cube > .reviewText{
+  color: #1D19FA;
+  text-align: justify;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.reviewImageBg{
+  position: absolute;
+  top: 2.813vw;
+  left: 20.156vw;
+  width: 23.25vw;
+  height: 17.396vw;
+  /* background: silver; */
+  border: 0.156vw solid #1D19FA;
+}
+.rows{
+  display: flex;
+  flex-direction: column;
+  gap:0.781vw;
+}
+.buttonRow{
+  width: 100%;
+  display: flex;
+  gap: 1.042vw;
+}
+.reviewText{
+  width: 100%;
+  height: 100%;
+}
+.buttonText{
+  width:30%;
+  height: 3.125vw;
+  background: white;
+  border: 0.156vw solid #1D19FA;
+  display: flex;
+  padding: 0.521vw 1.302vw;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.buttonText:hover{
+  background: #1D19FA;
+  transition: 0.4s;
+  cursor: url('../images/pointer2.png'),pointer;
+}
+.buttonText > p {
+  font-family: Greybeard-22px;
+  color: #1D19FA;
+  user-select: none;
+}
+.buttonText:hover > p{
+  color: white;
+}
+/* Images */
+.Maxim{
+  background-image: url('../images/maxim.png');
+}
+.Alicks{
+  background-image: url('../images/alicks.png');
+}
+.piper{
+  background-image: url('../images/piper.png');
+}
+.alex{
+  background-image: url('../images/alex.png');
+}
+.maya{
+  background-image: url('../images/maya.png');
+}
+.vilo{
+  background-image: url('../images/vilo.png');
+}

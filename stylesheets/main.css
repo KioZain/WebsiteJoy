@@ -1,0 +1,391 @@
+body{
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  padding: 20px;
+}
+a {
+  color:White;
+  font-size: 2.188vw;
+  font-family: Greybeard-22px;
+  text-transform: uppercase;
+}
+.hdMove:hover > a{
+  color: #1D19FA;
+}
+.wrapScreenContent{
+  position: relative;
+  max-width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.mainScr{
+  width: 100vw;
+  height: 56.25vw;
+  position: relative;
+  /* border: 3px solid black; */
+}
+.movement{
+  position: absolute;
+  left: 4vw;
+  top: 10vw;
+}
+.frameBorder{
+  position: absolute;
+  width: 96vw;
+  height: 47.5vw;
+  left: calc(50% - 96.5vw/2);
+  top: calc(50% - 53vw/2);
+  border: 6px solid red;
+  border-radius: 1.72vw;
+}
+.nameBar{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 22vw;
+  left: 50vw;
+}
+.flexName{
+  /* display: flex; */
+  padding: 0.781vw 1.563vw;
+  background-color: #1D19FA;
+}
+.flexName > h1 {
+  font-size: 5vw;
+  font-family: Greybeard-13px;
+  color: white;
+}
+.flexName:first-child {
+  width: 13.021vw;
+}
+.flexName:nth-child(2){
+  width: 33.021vw;
+}
+.txtBlock{
+  background-color: #1D19FA;
+  padding: 0.521vw 1.042vw;
+  position: absolute;
+  width: 19vw;
+  top: 35.5vw;
+  left: 65vw;
+}
+/* TextBlock */
+.txtBlock > p {
+  font-size: 1.146vw;
+  font-family: Greybeard-22px;
+}
+.pictures > div{
+  border: 4px solid
+}
+.txtBlock:nth-child(2){
+  top: 20.5vw;
+  width: 20vw;
+  left: 112vw;
+}
+.txtBlock:nth-child(3){
+  top: 71.5vw;
+  left: 60vw;
+}
+.txtBlock:nth-child(4){
+  top: 9.5vw;
+  left: 19.5vw;
+}
+.txtBlock:nth-child(5){
+  top: 53.5vw;
+  left: 14vw;
+}
+.txtBlock:nth-child(6){
+  top: 2vw;
+  left: 69vw;
+}
+/* Pictures */
+.picSquare{
+  width: 20vw;
+  height: 12vw;
+  position: absolute;
+  top: 15.5vw;
+  left: 19.5vw;
+  background-image: url('../images/mainScreen/therapy02.png');
+  animation: pQ1 4s linear infinite;
+}
+@keyframes pQ1 {
+  50%{background-image:url('../images/mainScreen/therapy01.png');}
+}
+ .picSquare:hover{
+  scale: 0.95;
+  transition: 0.8s;
+}
+.picSquare:nth-child(2){
+  width: 20vw;
+  height: 12vw;
+  background-color: red;
+  top: 4vw;
+  left: 94.5vw;
+  background-image: url('../images/mainScreen/cabinet01.png');
+  animation: pQ 4s linear infinite;
+}
+@keyframes pQ {
+  50%{background-image:url('../images/mainScreen/cabinet02.png');}
+}
+.picSquare:nth-child(3){
+  background-color: yellow;
+  top: 49.5vw;
+  left: 96vw;
+  height: 11vw;
+  width: 19.5vw;
+  background-image: url('../images/mainScreen/alicks02.png');
+  animation: pQ3 2s linear infinite;
+  background-size: contain;
+  background-position: center;
+}
+@keyframes pQ3 {
+  50%{background-image:url('../images/mainScreen/alicks01.png');}
+}
+.picSquare:nth-child(4){
+  width: 14vw;
+  height: 19vw;
+  background-color: green;
+  top: 51vw;
+  left: 61.5vw;
+  background: url('../images/mainScreen/nature02.png');
+  background-size:contain;
+  background-position: center;
+  animation: test 4s linear infinite;
+  }
+  @keyframes test {
+    25%{background-image:url('../images/mainScreen/nature01.png');}
+  }
+.picSquare:nth-child(5){
+  width: 22vw;
+  height: 16vw;
+  top: -5vw;
+  left: 45vw;
+  background: url('../images/mainScreen/flower01.png');
+  animation: sQ5 5s linear infinite;
+  background-position: center;
+}
+@keyframes sQ5 {
+  75%{background-image:url('../images/mainScreen/flower02.png');}
+}
+.picSquare:nth-child(6){
+  width: 19vw;
+  height: 12vw;
+  background-color: red;
+  top: 27vw;
+  left: 119vw;
+}
+.picSquare:nth-child(7){
+  width: 20vw;
+  height: 20vw;
+  left: -2vw;
+  top: -6.39vw;
+  background-image: url('../images/pxArt_menu.png');
+  animation: Sq7 6s linear infinite;
+}
+@keyframes Sq7 {
+  50%{background-image:url('../images/mainScreen/Art.png');}
+}
+.picSquare:nth-child(8){
+  width: 20vw;
+  height: 12vw;
+  background-color: red;
+  left: 116.5vw;
+  top: 0vw;
+  background-image: url('../images/mainScreen/heart02.png');
+  animation: Sq8 4s linear infinite;
+}
+@keyframes Sq8 {
+  50%{background-image:url('../images/mainScreen/heart01.png');}
+}
+.picSquare:nth-child(9){
+  width: 16vw;
+  height: 9vw;
+  top: -1.5vw;
+  left: 19.7vw;
+  background-image: url('../images//mainScreen/Building.png');
+  animation: Sq9 4s linear infinite;
+  background-size: cover;
+}
+@keyframes Sq9 {
+  50%{background-image:url('../images/mainScreen/BuildingPixelated.png');}
+}
+.picSquare:nth-child(10){
+  top: 59vw;
+  left: 9vw;
+  width: 16vw;
+  height: 9vw;
+  background: purple;
+  background-image: url('../images/mainScreen/book02.png');
+  animation: Sq10 2s linear infinite;
+}
+@keyframes Sq10 {
+  50%{background-image:url('../images/mainScreen/book01.png');}
+}
+.picSquare:nth-child(11){
+  top: 54vw;
+  left: 44vw;
+  width: 16vw;
+  height: 9vw;
+  background: purple;
+  background-image: url('../images/mainScreen/void01.png');
+  animation: Sq11 3s linear infinite;
+}
+@keyframes Sq11 {
+  50%{background-image:url('../images/mainScreen/void02.png');}
+}
+.picSquare:nth-child(12){
+  top: 37.5vw;
+  left: 1vw;
+  width: 16vw;
+  height: 15vw;
+  background: purple;
+  background-image: url('../images/mainScreen/cups02.png');
+  animation: Sq12 5s linear infinite;
+  background-size: contain;
+}
+@keyframes Sq12 {
+  50%{background-image:url('../images/mainScreen/cups01.png');}
+}
+.picSquare:nth-child(13){
+  top: 35.5vw;
+  left: 18vw;
+  width: 10vw;
+  height: 10vw;
+  background-image: url('../images/mainScreen/paperBook02.png');
+  animation: Sq13 2s linear infinite;
+  background-size: contain;
+}
+@keyframes Sq13 {
+  50%{background-image:url('../images/mainScreen/paperBook01.png');}
+}
+.picSquare:nth-child(14){
+  top: 47.5vw;
+  left: 117.9vw;
+  width: 14vw;
+  height: 14vw;
+  background-image: url('../images/mainScreen/tree02.png');
+  animation: Sq14 6s linear infinite;
+  background-size: contain;
+}
+@keyframes Sq14 {
+  50%{background-image:url('../images/mainScreen/tree01.png');}
+}
+.picSquare:nth-child(15){
+  top: 25.5vw;
+  left: 100.9vw;
+  width: 10vw;
+  height: 10vw;
+  background-image: url('../images/mainScreen/vilo02.png');
+  animation: Sq15 2s linear infinite;
+}
+@keyframes Sq15 {
+  50%{background-image:url('../images/mainScreen/vilo01.png');}
+}
+.picSquare:nth-child(16){
+  top: 62.5vw;
+  left: 84.9vw;
+  width: 10vw;
+  height: 10vw;
+  background-image: url('../images/mainScreen/02.png');
+  animation: Sq16 5s linear infinite;
+  background-size: contain;
+}
+@keyframes Sq16 {
+  50%{background-image:url('../images/mainScreen/01.png');}
+}
+.picSquare:nth-child(17){
+  top: -7.5vw;
+  left: 100.5vw;
+  width: 14vw;
+  height: 10vw;
+  background-image: url('../images/mainScreen/robohands02.png');
+  animation: Sq17 5s linear infinite;
+}
+@keyframes Sq17 {
+  50%{background-image:url('../images/mainScreen/robohands01.png');}
+}
+/* Headlines */
+.hdMove{
+  width: 15vw;
+  height: 4.063vw;
+  padding: 0.781vw 1.563vw;
+  background:#1D19FA;
+  display: flex;
+  position: absolute;
+  border: 4px solid #1D19FA;
+  top: 64.5vw;
+  left: 42vw;
+  /* border: 1px solid; */
+  align-items: center;
+  justify-content: center;
+}
+.hdMove:hover{
+  scale:0.95;
+  transition: 0.4s;
+  background: white;
+}
+
+.hdMove:nth-child(2){
+  top: 40.5vw;
+  left: 114vw;
+}
+.hdMove:nth-child(3){
+  left: 0vw;
+  top: 15.5vw;
+}
+.hdMove:nth-child(4){
+  top: -4.98vw;
+  left: 75vw;
+}
+.hdMove:nth-child(5){
+  top: 46.5vw;
+  left: 18vw;
+}
+.hdMove:nth-child(6){
+  top: 13.5vw;
+  left: 120vw;
+}
+/* Менюшка */
+.flexMenu{
+  /* display: flex; */
+  width: 80vw;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 55%;
+  gap: 5vw;;
+}
+.flexButton{
+  width: 30vw;
+  height: 5vw;
+  display: flex;
+  background-color: #1D19FA;
+  padding: 1.875vw 3.750vw;
+  align-items: center;
+  justify-content:center;
+}
+.flexMenu > p{
+  font-size: 2.125vw;
+  width: 35vw;
+  text-align: center;
+  color: #1D19FA;
+}
+.flexButton > a {
+  display: block;
+  font-size: 5vw;
+  font-family: Greybeard-13px;
+  /* width: 100%;
+  height: 100%; */
+}
+.arrow{
+  width: 12.500vw;
+  height: 12.500vw;
+  background-image: url('../images/screen.png');
+  background-size: cover;
+  background-position: center;
+}

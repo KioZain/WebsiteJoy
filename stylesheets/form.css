@@ -1,0 +1,133 @@
+button{
+  height: 4.167vw;
+  margin-top: 1.563vw;
+  border: 0.156vw solid #1D19FA;
+  background: white;
+  color: #26589F;
+  cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+button:hover{
+  background: #1D19FA;
+  cursor: url('../images/pointer2.png'),pointer;
+  /* transition: 0,75s; */
+}
+button > h2 {
+  color: #1D19FA;
+  font-size: 1.146vw;
+}
+button:hover > h2 {
+  color: white;
+}
+.inputRow > p{
+  text-align: center;
+  opacity: 75%;
+}
+.inputRow:last-child{
+  margin-top:0.781vw;
+}
+input{
+  font-family: Greybeard-13px;
+  font-size: 1.042vw;
+  width: 41.5%;
+  height: 2.604vw;
+  border: 0.156vw solid;
+  padding: 0.521vw 1.042vw;
+  outline: none;
+  gap:1.042vw;
+}
+textarea{
+  font-family: Greybeard-13px;
+  font-size: 1.042vw;
+  border: 0.156vw solid;
+  padding: 0.521vw 1.042vw;
+  width: 92%;
+  height: 7.813vw;
+  resize: none;
+  padding:0.521vw 1.042vw;
+  outline: none;
+}
+.inputWrapper{
+  display: flex;
+  flex-direction: column;
+  gap:0.521vw;
+  width: 31.250vw;
+  margin-top: 3.646vw;
+}
+.inputRow{
+  display: flex;
+  justify-content: space-between;
+}
+.inputRow > p{
+  font-size: 1.267vw;
+}
+.inputWrapper > input{
+  width: 92%;
+}
+.boxInputWrapper{
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+input[type="text"]::placeholder {
+  color: blue;
+}
+input[type="email"]::placeholder {
+  color: #FA5519;
+}
+input[type="number"]::placeholder {
+  color: blue;
+}
+textarea::placeholder {
+  color: #0CCC70;
+}
+.popUp{
+  height: 10.229vw;
+  width: 31.25vw;
+  background-color: #FFFFFF;
+  position: fixed;
+  transform: translate(93%,50%);
+  flex-direction: column;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  padding: 1.563vw;
+  gap:1.042vw;
+  border: 0.208vw solid;
+}
+.shadow{
+  width: 100vw;
+  height: 205vw;
+  position: absolute;
+  background: black;
+  opacity: 60%;
+  top:0;
+  z-index: 1;
+}
+.closePop {
+  background-image: url('../images/closePopup.png');
+  width: 1.763vw;
+  height: 1.763vw;
+  right: 0.563vw;
+  top: 0.563vw;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+}
+.flex{
+  display: flex;
+}
+.TextPop > h2 {
+  font-size: 2.508vw;
+  color: blue;
+  text-align: center;
+}
+.popUp > p {
+  text-align: center;
+  font-size: 20px;
+}

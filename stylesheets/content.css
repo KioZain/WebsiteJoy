@@ -1,0 +1,307 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  overflow: hidden;
+}
+.sun{
+  background-image: url('../images/a_sun.svg');
+}
+.calmness{
+  background-image: url('../images/a_calmness.svg');
+}
+.flower{
+  background-image: url('../images/a_flower.svg');
+}
+.eye{
+  background-image: url('../images/a_eye.svg');
+}
+.sharp{
+  background-image: url('../images/a_sharp.svg');
+}
+.menuButton{
+  background-image: url('../images/menuButton.svg');
+}
+.menuButton_close{
+  background-image: url('../images/menuButton_close.png');
+}
+.mainScreen{
+  background-image: url('../images/mainScreen.png');
+  background-size:contain;
+}
+.pixHall{
+  background-image: url('../images/pixelated01.png');
+}
+.leftContent{
+  width: 50vw;
+  height:88vh;
+  overflow-x: hidden;
+  /* background-color: navy; */
+}
+.rightContent{
+  width: 50vw;
+  height: 88vh;
+  overflow-x: hidden;
+  /* background-color: red; */
+}
+.scrollObj {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.scrollContentRight{
+  display: flex;
+  flex-direction: column;
+  gap:5.208vw;
+}
+.wrapper{
+  display: flex;
+  flex-direction:row;
+}
+.blockTest{
+  width: 100%;
+  max-height: 854px;
+  display: flex;
+  flex-direction: column;
+  padding: 0.781vw 1.042vw;
+  gap: 1.042vw;
+}
+.container{
+  width: 100%;
+  padding: 0.781vw 1.042vw;
+  min-height: 8.854vw;
+  border: 0.208vw solid;
+}
+/* FirstFourthBlock */
+.rContainer{
+  width: 100%;
+  height: 28.229vw;
+  border: 0.208vw solid;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.imageContent{
+  width: 100%;
+  height: 100%;
+}
+.actions{
+  width: 100%;
+  height: 2.604vw;
+  display: flex;
+}
+/* Slider */
+.slider{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0vw;
+}
+.lineBack{
+  width: 100%;
+  height: 1.042vw;
+  background-color: #0CCC70;
+}
+.description{
+  height: 100%;
+  padding: 0.781vw 1.563vw;
+  background-color:#0CCC70;
+  display: flex;
+  align-items: center;
+}
+.description > p {
+  font-size: 1.042vw;
+  color: white;
+  font-family: Greybeard-13px;
+}
+/* .sliderButton{
+  width: 2.604vw;
+  height: 2.604vw;
+  background-color:#0CCC70;
+  display: flex;
+  align-items: center;
+  align-content: center;
+} */
+.prev{
+  background-image: url('../images/prev.png');
+}
+.next{
+  background-image: url('../images/next.png');
+}
+/* SecodBlock */
+.secBlock{
+  width: 100%;
+  height: 27.188vw;
+  display: flex;
+  gap:1.042vw;
+  position: relative;
+}
+.picBlockSev{
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  border: 0.208vw solid;
+}
+.picBlockT{
+  width: 35%;
+  height: 50%;
+  display: flex;
+  flex-direction: column-reverse;
+  border: 0.208vw solid;
+}
+/* ThirdBlock */
+.thirdBlock{
+  width: 100%;
+  height: 27.188vw;
+}
+.thTop{
+  display: flex;
+  gap:1.042vw;
+}
+.thBl{
+  width: 80%;
+  height: 18.385vw;
+  background-color: navy;
+  display: flex;
+  flex-direction: column;
+  border: 0.208vw solid;
+  position: relative;
+}
+.thBr{
+  width: 20%;
+  height: 11.458vw;
+  display: flex;
+  border: 0.208vw solid;
+  flex-direction: column-reverse;
+}
+.thBottom{
+  width: 77.8%;
+  margin-top: 1.042vw;
+  display: flex;
+  justify-content: space-between;
+}
+.thBottomBlock{
+  width: 14.583vw;
+  height: 7.813vw;
+  display: flex;
+  flex-direction: column;
+  border: 0.208vw solid;
+}
+/* Fifth Block */
+.fifthBlock{
+  width: 100%;
+  height: 27.188vw;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+
+}
+.ftTop{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 18.385vw;
+  position: relative;
+  border: 0.208vw solid;
+}
+.ftBottom{
+  width: 100%;
+  height: 7.813vw;
+  display: flex;
+  gap:20px;
+}
+.ftBottom > div {
+  width: 16.708vw;
+  height: 100%;
+}
+/* SixthBlock */
+.sixthBlock{
+  width: 100%;
+  height: 27.188vw;
+  display: flex;
+  gap:20px;
+}
+.sxLeft{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 0.208vw solid;
+  position: relative;
+}
+.sxRight{
+  width: 20%;
+  height: 11.458vw;
+  display: flex;
+  border: 0.208vw solid;
+  flex-direction: column-reverse;
+}
+/* Pictures */
+.mainBuilding{
+  background-image: url('../images/render01.png');
+}
+.plantHall{
+  background-image: url('../images/render02.png');
+}
+.plantPixelated{
+  background-image: url('../images/plantHall_about.png');
+}
+.therapyRoom{
+  background-image: url('../images/therapyRoom.png');
+}
+.pixR{
+  background-image: url('../images/pixelated02.png');
+}
+.pixL{
+  background-image: url('../images/pixelated03.png');
+}
+.arhive{
+  background-image: url('../images/archive.png');
+}
+.artTherapy{
+  background-image: url('../images/artForRobots.png');
+}
+.pixArchive{
+  background-image: url('../images/pixArchive.png');
+}
+.joyOs{
+  background-image: url('../images/joyOs.png');
+}
+.BigComputer{
+  background-image: url('../images/BigComputer.png');
+  /* background-size: contain; */
+}
+/* Colors */
+.blue{
+  color:#1D19FA;
+}
+.blueBG{
+  background-color: #1D19FA;
+}
+.green{
+  color:#0CCC70;
+}
+.svgGreen{
+  fill:#0CCC70;
+}
+.greenBG{
+  background-color: #0CCC70;
+}
+.orange{
+  color: #FA5519;
+}
+.orangeBG{
+  background-color: #FA5519;
+}
+.white{
+  color: #FFFFFF;
+}
+.WrapMobile{
+  display: none
+}

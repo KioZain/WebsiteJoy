@@ -172,7 +172,7 @@
   border: 0.208vw solid #1D19FA;
   position: relative;
   overflow: hidden;
-  background-image: url('../images/addBG.png');
+  background-image: url('../images/addBg.png');
 }
 /* BookAdd */
 .addWrapper > div {
@@ -265,7 +265,7 @@
   width: 50%;
   height: 29.427vw;
   border: 0.208vw solid #1D19FA;
-  background-image: url('../images/Garden.png');
+  background-image: url('../images/garden.png');
 }
 /* AboutBlock */
 .aboutBook{
